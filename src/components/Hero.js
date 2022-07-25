@@ -11,23 +11,24 @@ const Hero = () => {
     >
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full pt-8'>
+
+          
           <div className='flex-1 flex flex-col items-center lg:items-start'>
             <p className='text-lg text-accent text-md mb-[22px]'>
-              Hey, I'm Jane! 👋
+              Hey, Berk Bozok! 👋
             </p>
             <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
               I Build & Design <br /> Web Interfaces.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-              dolor elit.
+              Software Engineer
             </p>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Work with me
+              Let's work together
             </button>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={WomanImg} alt='' />
+            <img src='https://images.unsplash.com/photo-1567316106249-b2ecaeefdade?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZSUyMGRhcmt8ZW58MHx8MHx8&w=1000&q=80' alt='' />
           </div>
         </div>
       </div>
