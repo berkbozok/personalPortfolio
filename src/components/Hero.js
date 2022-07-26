@@ -25,8 +25,10 @@ const Hero = () => {
               Let's work together
             </button>
           </div>
+
+          
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src='https://images.unsplash.com/photo-1567316106249-b2ecaeefdade?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZSUyMGRhcmt8ZW58MHx8MHx8&w=1000&q=80' alt='' />
+            <img src={WomanImg} alt='' />
           </div>
         </div>
       </div>
