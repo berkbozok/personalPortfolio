@@ -21,6 +21,9 @@ const Hero = () => {
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
               Software Engineer
             </p>
+
+
+            
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
               Let's work together
             </button>
