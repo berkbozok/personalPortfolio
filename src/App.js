@@ -1,7 +1,11 @@
 import React from 'react';
+import  Brands  from './components/Brands';
 import Header from './components/Header';
-// import components
+
 import Hero from './components/Hero';
+
+
+
 const App = () => {
 
  
@@ -9,6 +13,7 @@ const App = () => {
     
     <Header/>
     <Hero/>
+    <Brands/>
     <div style={{height:'2000px'}}>
 
     </div>
