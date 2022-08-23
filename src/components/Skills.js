@@ -14,8 +14,6 @@ const Skills = () => {
           {skills.map((skill, index) => {
             return (
             
-
-
               <div
                 className='flex items-center justify-center'
                 key={index}
