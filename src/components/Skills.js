@@ -13,6 +13,9 @@ const Skills = () => {
             return (
 
               
+
+
+              
               <div
                 className='flex items-center justify-center'
                 key={index}
