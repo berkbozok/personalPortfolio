@@ -28,6 +28,7 @@ const Skills = () => {
                 key={index}
               >
                 <img className='lg:h-20' src={skill.image} alt='' />
+              
               </div>
             );
           })}
