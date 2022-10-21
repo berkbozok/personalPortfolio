@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
+import Services from './components/Services';
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
     <About/>
     <Skills/>
     <Portfolio/>
+    <Services/>
     <div style={{height:'2000px'}}>
 
     </div>
