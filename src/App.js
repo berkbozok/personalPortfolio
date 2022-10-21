@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Services from './components/Services';
+import Contact from './components/Contact';
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
     <Skills/>
     <Portfolio/>
     <Services/>
+    <Contact/>
     <div style={{height:'2000px'}}>
 
     </div>
