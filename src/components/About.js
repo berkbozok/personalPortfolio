@@ -19,17 +19,14 @@ const About = () => {
                 Berk Bozok
               </h2>
               <p className='mb-4 text-accent'>
-                Freelance Frontend Web Developer
+                Software Engineer
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
-                neque harum velit molestiae dignissimos distinctio dolorum nisi
-                labore culpa nihil. <br />
+              I am a 25 years old junior Software Engineering from Concordia University who is passionate about learning new skills and technologies. 
+I am looking forward to using the knowledge I learned at my University to solve real-life problems and projects. <br />
                 <br />
-                Qui doloremque quod sit accusantium unde totam inventore
-                cupiditate ratione esse maxime eum recusandae ducimus.
+             
               </p>
             </div>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
