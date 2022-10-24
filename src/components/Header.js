@@ -9,6 +9,9 @@ import Socials from './Socials';
 const Header = () => {
   const [bg, setBg] = useState(false);
 
+
+
+  
   useEffect(() => {
     window.addEventListener('scroll', () => {
       return window.scrollY > 50 ? setBg(true) : setBg(false);
@@ -16,7 +19,7 @@ const Header = () => {
   });
 
 
-  
+
 
   return (
     <header
