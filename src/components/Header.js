@@ -21,9 +21,6 @@ const Header = () => {
     });
   });
 
-
-
-  
   return (
     <header
       className={`${
