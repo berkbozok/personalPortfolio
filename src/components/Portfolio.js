@@ -17,8 +17,8 @@ const Portfolio = () => {
 
           
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Check out the amazing big projects and tasks that I have worked on so far.
+            All of them are available on github, if you would like to see the code/design.
 
           </p>
         </div>

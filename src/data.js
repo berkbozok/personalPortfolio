@@ -10,6 +10,8 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
+  FiFacebook,
 } from 'react-icons/fi';
 
 // companies icons
@@ -67,21 +69,18 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
+    icon: <FiLinkedin />,
     href: '',
   },
   {
-    icon: <FiInstagram />,
+    icon: <FiFacebook />,
     href: '',
   },
   {
     icon: <FiGithub />,
     href: '',
   },
-  {
-    icon: <FiDribbble />,
-    href: '',
-  },
+  
 ];
 
 // companies
@@ -113,37 +112,32 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
+    name: 'Turkey Chamber of Finance Website',
     category: 'UI/UX design',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'Capstone Flutter Application',
     category: 'web development',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
+    name: 'Bike E-Commerce Home page',
     category: 'UI/UX design',
   },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
-  },
+ 
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    name: 'Bike E-Commerce React',
     category: 'web development',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
+    name: 'Portfolio Page React',
     category: 'web development',
   },
 ];
@@ -159,9 +153,7 @@ export const projectsNav = [
   {
     name: 'web development',
   },
-  {
-    name: 'branding',
-  },
+  
 ];
 
 // skill
@@ -198,7 +190,7 @@ export const services = [
     icon: <FiLayout />,
     name: 'Web Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'TEST',
   },
   {
     icon: <FiSettings />,
@@ -208,7 +200,7 @@ export const services = [
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Documentation',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
