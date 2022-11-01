@@ -190,7 +190,7 @@ export const services = [
     icon: <FiLayout />,
     name: 'Web Design',
     description:
-      'TESTTTT',
+      'TESTT',
   },
   {
     icon: <FiSettings />,
