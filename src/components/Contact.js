@@ -2,9 +2,27 @@ import React from 'react';
 
 // import contact data
 import { contact } from '../data';
-
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+  
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_osvkvtl', 'template_33bgi1e', form.current, 'l0foi6hnOWruWHWDr')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message sent")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  
   return (
     <section className='section bg-primary' id='contact'>
       <div className='container mx-auto'>
@@ -39,18 +57,17 @@ const Contact = () => {
             })}
           </div>
           <form
-            className='space-y-8 w-full max-w-[780px]'
-          >
+            className='space-y-8 w-full max-w-[780px]' ref={form} onSubmit={sendEmail}>
             <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
+              <input className='input' type='text' placeholder='Your name' name="user_name"/>
+              <input className='input' type='email' placeholder='Your email' name="user_email"/>
             </div>
-            <input className='input' type='text' placeholder='Subject' />
+            
             <textarea
               className='textarea'
               placeholder='Your message'
-            ></textarea>
-            <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
+              name="message"></textarea>
+            <button className='btn btn-lg bg-accent hover:bg-secondary-hover' type="submit" value="Send">
               Send message
             </button>
           </form>
