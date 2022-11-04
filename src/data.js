@@ -165,7 +165,7 @@ export const projectsData = [
   {
     id: '10',
     image: 'https://www.otip.com/getattachment/e7745e90-fa6f-4cb8-aed6-c1fababe1049/file.aspx',
-    name: 'TravelCompanion',
+    name: 'Travel Companion',
     category: 'Projects',
     detail: "A MERN stack application that displays Covid-19 restrictions for countrie, where you can see the restrictions before your flight or travel",
   },
