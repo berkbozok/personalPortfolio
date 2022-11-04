@@ -4,6 +4,8 @@ import React from 'react';
 import { contact } from '../data';
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 const Contact = () => {
 
@@ -68,9 +70,11 @@ const Contact = () => {
               placeholder='Your message'
               name="message"></textarea>
               
-            <button className='btn btn-lg bg-accent hover:bg-secondary-hover' type="submit" value="Send">
+              <Popup trigger={ <button className='btn btn-lg bg-accent hover:bg-secondary-hover' type="submit" value="Send">
               Send message
-            </button>
+                </button>} position="right center">
+                <div>Message Sent</div>
+              </Popup>
           </form>
         </div>
       </div>

@@ -131,14 +131,14 @@ export const projectsData = [
   {
     id: '5',
     image: "https://www.transitionbikes.com/images/2022_PatrolCarbon_Gallery1.jpg",
-    name: 'Bike E-Commerce React',
+    name: ' React Bike E-Commerce',
     category: 'web development',
     detail: "React E-Commerce Website where the user can order bike parts and admin can track the order",
   },
   {
     id: '6',
     image: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/47aa61101334781.5f1c660e2b883.jpg",
-    name: 'Portfolio Page React',
+    name: ' React Portfolio Page',
     category: 'web development',
     detail: "The website which you are looking at right now :)",
   },
