@@ -59,8 +59,8 @@ const Contact = () => {
           <form
             className='space-y-8 w-full max-w-[780px]' ref={form} onSubmit={sendEmail}>
             <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' name="user_name"/>
-              <input className='input' type='email' placeholder='Your email' name="user_email"/>
+              <input className='input' type='text' placeholder='Your name' name="to_name"/>
+              <input className='input' type='email' placeholder='Your email' name="from_name"/>
             </div>
             
             <textarea
