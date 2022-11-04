@@ -25,7 +25,7 @@ const About = () => {
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-              I am a 25 years old junior Software Engineering from Concordia University who is passionate about learning new skills and technologies. 
+              I am a 25 years old Software Engineer from Concordia University who is passionate about learning new skills and technologies. 
 I am looking forward to using the knowledge I learned at my University to solve real-life problems and projects. <br />
                 <br />
              
