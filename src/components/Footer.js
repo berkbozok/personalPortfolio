@@ -22,7 +22,7 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <img src={Logo} alt='' />
+            <img src="https://i.imgur.com/7ErOwR5.png" alt='' width="172" height="29" viewBox="0 0 172 29" fill="none" />
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
             &copy; 2022 Berk Bozok. All rights reserved.

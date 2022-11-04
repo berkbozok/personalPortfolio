@@ -97,10 +97,7 @@ export const brands = [
     img: FiverBrandIcon,
     href: '',
   },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
+  
   {
     img: DribbbleBrandIcon,
     href: '',
@@ -112,25 +109,25 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'Turkey Chamber of Finance Website',
+    name: 'Union of Chamers of Certified Public Accountants of Turkiye Website Design',
     category: 'UI/UX design',
   },
   {
     id: '2',
-    image: Project2,
-    name: 'Capstone Flutter Application',
+    image: "https://www.mindinventory.com/blog/wp-content/uploads/2022/10/flutter-3.png",
+    name: 'Capstone Flutter WebSite/Application',
     category: 'web development',
   },
   {
     id: '3',
-    image: Project3,
-    name: 'Bike E-Commerce Home page',
+    image: 'https://images.immediate.co.uk/production/volatile/sites/21/2021/01/Style-Council-04-b45d4fc.jpg?quality=90&resize=620,413',
+    name: 'Bike E-Commerce UI/UX Design',
     category: 'UI/UX design',
   },
  
   {
     id: '5',
-    image: Project5,
+    image: "https://www.transitionbikes.com/images/2022_PatrolCarbon_Gallery1.jpg",
     name: 'Bike E-Commerce React',
     category: 'web development',
   },
@@ -142,13 +139,13 @@ export const projectsData = [
   },
   {
     id: '7',
-    image: Project5,
+    image: "https://helios-i.mashable.com/imagery/articles/050bXhdmNaL9bDGAINptcrL/hero-image.fill.size_1200x1200.v1617973265.jpg",
     name: 'Spotify Clone',
     category: 'web development',
   },
   {
-    id: '7',
-    image: Project5,
+    id: '8',
+    image: 'https://s.yimg.com/os/creatr-uploaded-images/2022-01/602660f0-6fe3-11ec-aff7-6b39b1a526bc',
     name: 'Twitter Clone',
     category: 'web development',
   }

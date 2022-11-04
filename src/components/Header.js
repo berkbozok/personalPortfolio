@@ -30,7 +30,7 @@ const Header = () => {
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
         <a href='#'>
-          <img src={Logo} alt='' />
+          <img src="https://i.imgur.com/7ErOwR5.png" alt='' width="172" height="29" viewBox="0 0 172 29" fill="none" />
         </a>
         {/* nav */}
         <div className='hidden lg:block'>
