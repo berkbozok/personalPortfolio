@@ -70,15 +70,15 @@ export const navigation = [
 export const social = [
   {
     icon: <FiLinkedin />,
-    href: '',
+    href: 'https://www.linkedin.com/in/berk-bozok-512998168/',
   },
   {
     icon: <FiFacebook />,
-    href: '',
+    href: 'https://www.facebook.com/berk.bozok/',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/berkbozok',
   },
   
 ];
