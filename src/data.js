@@ -140,6 +140,19 @@ export const projectsData = [
     name: 'Portfolio Page React',
     category: 'web development',
   },
+  {
+    id: '7',
+    image: Project5,
+    name: 'Spotify Clone',
+    category: 'web development',
+  },
+  {
+    id: '7',
+    image: Project5,
+    name: 'Twitter Clone',
+    category: 'web development',
+  }
+
 ];
 
 // projects
