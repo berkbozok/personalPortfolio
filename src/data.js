@@ -248,7 +248,7 @@ export const services = [
     icon: <FiTag />,
     name: 'SEO',
     description:
-      'I have successfully ranked local businesses in our Midwest market, and now I want to help you rank in your market. I have crafted a \'recipe\' that when we add the right ingredients, the right way, the result is a ranking boost that is fast and lasts. It\'s the ranking boost result we get for your business. We add this and watch your ranking grow.',
+      'I have successfully ranked local businesses in our Midwest market, and now I want to help you rank in your market. I have crafted a \'recipe\' that when we add the right ingredients, the right way, the result is a ranking boost that is fast and lasts. It\'s the ranking boost result we get for your business. ',
   },
 ]; 
 
@@ -265,6 +265,6 @@ export const contact = [
     icon: <FiMapPin />,
     title: 'Current Location',
     subtitle: 'Montreal, Canada',
-    description: 'Ready to Work Wordlwide',
+    description: 'Ready to Work Worldwide',
   },
 ];
