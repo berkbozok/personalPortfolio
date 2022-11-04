@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
+      className='bg-[#010100] lg:h-[85vh] flex items-center  lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
     >
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full pt-8'>
@@ -35,7 +35,7 @@ const Hero = () => {
 
           
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={WomanImg} alt='' />
+            <img src="https://i.imgur.com/pFU9hYj.jpg" alt='' />
           </div>
         </div>
       </div>

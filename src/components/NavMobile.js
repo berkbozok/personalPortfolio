@@ -80,7 +80,7 @@ const NavMobile = () => {
               <Link
                 to={item.href}
                 smooth={true}
-                duration={5400}
+                duration={800}
                 offset={-70}
                 className='text-xl cursor-pointer capitalize'
                 onClick={() => setIsOpen(false)}
