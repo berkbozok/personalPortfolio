@@ -1,4 +1,6 @@
 import React from 'react';
+import {navigation} from '../data';
+import {Link} from 'react-scroll';
 
 // import img
 import Image from '../assets/img/about.webp';
@@ -30,7 +32,10 @@ I am looking forward to using the knowledge I learned at my University to solve 
               </p>
             </div>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              Contact me
+            <Link to={navigation[4].href} activeClass='active' spy={true} smooth={true}
+                duration={800} offset={-70} className='transition-all duration-300'>
+                Contact Me
+              </Link>
             </button>
           </div>
         </div>

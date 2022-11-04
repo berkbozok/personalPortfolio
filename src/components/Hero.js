@@ -1,5 +1,6 @@
 import React from 'react';
-
+import {navigation} from '../data';
+import {Link} from 'react-scroll';
 // import woman image
 import WomanImg from '../assets/img/banner-woman2.webp';
 
@@ -22,11 +23,14 @@ const Hero = () => {
               Software Engineer
             </p>
 
-
             
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Let's work together
-            </button>
+            
+            <div className='btn btn-md bg-accent  md:btn-lg '>
+            <Link to={navigation[4].href} activeClass='active' spy={true} smooth={true}
+                duration={800} offset={-70} className='transition-all duration-300'>
+                 Let's work together
+              </Link>
+            </div>
           </div>
 
           

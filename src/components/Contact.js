@@ -13,8 +13,7 @@ const Contact = () => {
             Contact me
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            If you would like to reach out to me , discuss about an upcoming project or job offer please feel free to send me an email :)
           </p>
         </div>
         <div

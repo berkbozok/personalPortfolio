@@ -108,7 +108,7 @@ export const brands = [
 export const projectsData = [
   {
     id: '1',
-    image: Project1,
+    image: "https://www.huseyinkalayci.com/wp-content/uploads/2021/02/turmob.png",
     name: 'Union of Chamers of Certified Public Accountants of Turkiye Website Design',
     category: 'UI/UX design',
   },
@@ -133,7 +133,7 @@ export const projectsData = [
   },
   {
     id: '6',
-    image: Project6,
+    image: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/47aa61101334781.5f1c660e2b883.jpg",
     name: 'Portfolio Page React',
     category: 'web development',
   },
@@ -147,6 +147,11 @@ export const projectsData = [
     id: '8',
     image: 'https://s.yimg.com/os/creatr-uploaded-images/2022-01/602660f0-6fe3-11ec-aff7-6b39b1a526bc',
     name: 'Twitter Clone',
+    category: 'web development',
+  }, {
+    id: '9',
+    image: 'https://login.gov/assets/img/login-gov-600x314.png',
+    name: 'Login Form Demo',
     category: 'web development',
   }
 
