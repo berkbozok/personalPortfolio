@@ -115,7 +115,7 @@ export const projectsData = [
   },
   {
     id: '2',
-    image: "https://www.mindinventory.com/blog/wp-content/uploads/2022/10/flutter-3.png",
+    image: "https://imgur.com/a/J0gIjph",
     name: 'Capstone Flutter WebSite/Application',
     category: 'web development',
     detail: "Personal Companion mobile application, using flutter and firebase as our datastore.",
