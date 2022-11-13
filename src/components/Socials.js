@@ -10,9 +10,6 @@ const Socials = () => {
                 <a className='text-base' href={item.href}>
                 {item.icon}
                 </a>
-
-
-                
             </li>
 
     }
