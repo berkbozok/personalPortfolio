@@ -8,8 +8,6 @@ const Socials = () => {
             return <li className='flex justify-center items-center text-accent' 
             key={index}>
 
-
-              
                 <a className='text-base' href={item.href}>
                 {item.icon}
                 </a>
