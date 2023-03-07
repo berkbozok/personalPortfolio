@@ -7,8 +7,6 @@ import {Link} from 'react-scroll';
 const Nav = () => {
   return (
     <nav>
-
-
         <ul className='flex space-x-8 capitalize text-[15px]'>
 
             {navigation.map((item,index)=>{
@@ -19,7 +17,6 @@ const Nav = () => {
                         duration={500} offset={-70} className='transition-all duration-300'>
                         {item.name}
                         </Link>
-
                     </li>
                 )
             })}
