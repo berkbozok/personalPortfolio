@@ -1,5 +1,4 @@
 import React from "react";
-
 import { social } from "../data";
 
 const Socials = () => {
