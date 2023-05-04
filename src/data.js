@@ -119,17 +119,33 @@ export const projectsData = [
     detail:
       "Personal Companion mobile application, using flutter and firebase as our datastore.",
   },
+
   {
     id: "3",
+    image: "https://i.imgur.com/fsMaIrL.png",
+    name: "FITracker Fitness/Gym Website",
+    category: "Web development",
+    detail:
+      "Fitness and Calories calculator where the user can book with a trainer for diet and gym program.",
+  },
+  {
+    id: "4",
     image:
       "https://images.immediate.co.uk/production/volatile/sites/21/2021/01/Style-Council-04-b45d4fc.jpg?quality=90&resize=620,413",
     name: "Bike E-Commerce UI/UX Design",
     category: "UI/UX design",
     detail: "Mini-Capstone project entire website design, made with Figma",
   },
-
   {
     id: "5",
+    image: "https://i.imgur.com/y8MMhbB.jpg",
+    name: "Craft CMS E-Commerce",
+    category: "Web development",
+    detail:
+      "E-Commerce website design/demo made with Sass and Craft Cms including mobile version.",
+  },
+  {
+    id: "6",
     image:
       "https://www.transitionbikes.com/images/2022_PatrolCarbon_Gallery1.jpg",
     name: " React Bike E-Commerce",
@@ -138,7 +154,7 @@ export const projectsData = [
       "React E-Commerce Website where the user can order bike parts and admin can track the order",
   },
   {
-    id: "6",
+    id: "7",
     image:
       "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/47aa61101334781.5f1c660e2b883.jpg",
     name: " React Portfolio Page",
@@ -146,7 +162,7 @@ export const projectsData = [
     detail: "The website which you are looking at right now :)",
   },
   {
-    id: "7",
+    id: "8",
     image:
       "https://helios-i.mashable.com/imagery/articles/050bXhdmNaL9bDGAINptcrL/hero-image.fill.size_1200x1200.v1617973265.jpg",
     name: "Spotify Clone",
@@ -155,7 +171,7 @@ export const projectsData = [
       "Spotify 2.0 with NEXT.JS 12.0!, also with Middleware, Spotify API, Tailwind, NextAuth,and Recoil",
   },
   {
-    id: "8",
+    id: "9",
     image:
       "https://s.yimg.com/os/creatr-uploaded-images/2022-01/602660f0-6fe3-11ec-aff7-6b39b1a526bc",
     name: "Twitter Clone",
@@ -164,7 +180,7 @@ export const projectsData = [
       "Twitter Clone with REACT.JS!,also with Next.js, Sanity CMS, Typescript, SSR, Tailwind & NextAuth",
   },
   {
-    id: "9",
+    id: "10",
     image: "https://login.gov/assets/img/login-gov-600x314.png",
     name: "Login Form Demo",
     category: "web development",
@@ -172,7 +188,7 @@ export const projectsData = [
       "The Login demo where we can test username and correct inputs in order to see success page",
   },
   {
-    id: "10",
+    id: "11",
     image:
       "https://www.otip.com/getattachment/e7745e90-fa6f-4cb8-aed6-c1fababe1049/file.aspx",
     name: "Travel Companion",
@@ -181,7 +197,7 @@ export const projectsData = [
       "A MERN stack application that displays Covid-19 restrictions for countrie, where you can see the restrictions before your flight or travel",
   },
   {
-    id: "11",
+    id: "12",
     image:
       "https://education.nsw.gov.au/content/dam/main-education/parents-and-carers/media/images/maths/Risk_board_game.jpg",
     name: "C++ Card/Risk Game",
