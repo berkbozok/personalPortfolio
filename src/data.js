@@ -189,6 +189,14 @@ export const projectsData = [
   },
   {
     id: "11",
+    image: "https://i.imgur.com/w6C18CP.jpg",
+    name: "File Upload Demo",
+    category: "web development",
+    detail:
+      "A demo where you can test to upload your file and the size. It can only accept certain type of files",
+  },
+  {
+    id: "12",
     image:
       "https://www.otip.com/getattachment/e7745e90-fa6f-4cb8-aed6-c1fababe1049/file.aspx",
     name: "Travel Companion",
@@ -197,7 +205,7 @@ export const projectsData = [
       "A MERN stack application that displays Covid-19 restrictions for countrie, where you can see the restrictions before your flight or travel",
   },
   {
-    id: "12",
+    id: "13",
     image:
       "https://education.nsw.gov.au/content/dam/main-education/parents-and-carers/media/images/maths/Risk_board_game.jpg",
     name: "C++ Card/Risk Game",
