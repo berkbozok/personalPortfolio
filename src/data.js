@@ -293,6 +293,7 @@ export const contact = [
     subtitle: "I am here to help you.",
     description: "Email me at berk_bozok@live.com",
   },
+
   {
     icon: <FiMapPin />,
     title: "Current Location",
