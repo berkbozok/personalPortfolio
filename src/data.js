@@ -197,8 +197,7 @@ export const projectsData = [
   },
   {
     id: "12",
-    image:
-      "https://www.otip.com/getattachment/e7745e90-fa6f-4cb8-aed6-c1fababe1049/file.aspx",
+    image: "https://i.imgur.com/7zABNd3.png",
     name: "Travel Companion",
     category: "Projects",
     detail:
@@ -206,8 +205,7 @@ export const projectsData = [
   },
   {
     id: "13",
-    image:
-      "https://education.nsw.gov.au/content/dam/main-education/parents-and-carers/media/images/maths/Risk_board_game.jpg",
+    image: "https://i.imgur.com/FXHqptN.jpeg",
     name: "C++ Card/Risk Game",
     category: "Projects",
     detail:
