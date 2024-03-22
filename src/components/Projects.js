@@ -19,6 +19,7 @@ const Projects = () => {
     }
   }, [item]);
   console.log("test");
+  console.log("hello");
   const handleClick = (e, index) => {
     setItem({ name: e.target.textContent.toLowerCase() });
     setActive(index);
