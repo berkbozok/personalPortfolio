@@ -14,7 +14,8 @@ const BackTopBtn = () => {
   };
   {
     return (
-      show && (
+      // button temp removed
+      false && (
         <button
           onClick={() => scrollToTop()}
           className="bg-accent hover:bg-accent-hover text-white w-12 h-12 rounded-full fixed right-24 bottom-24 cursor-pointer flex justify-center items-center transition-all"
