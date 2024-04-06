@@ -4,11 +4,13 @@ import { ChevronUpIcon } from "@heroicons/react/outline";
 
 const BackTopBtn = () => {
   const [show, setShow] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       return window.scrollY > 600 ? setShow(true) : setShow(false);
     });
   });
+
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
