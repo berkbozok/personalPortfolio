@@ -1,9 +1,9 @@
 import React from "react";
 import { navigation } from "../data";
 import { Link } from "react-scroll";
-import Image from "../assets/img/about.webp";
 
 const About = () => {
+  // testing
   return (
     <section className="section bg-secondary" id="about">
       <div className="container mx-auto">
