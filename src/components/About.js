@@ -11,7 +11,6 @@ const About = () => {
           <img
             className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
             src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80"
-            alt=""
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col">
