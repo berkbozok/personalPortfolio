@@ -19,7 +19,6 @@ const Footer = () => {
           <div>
             <img
               src="https://i.imgur.com/7ErOwR5.png"
-              alt=""
               width="172"
               height="29"
               viewBox="0 0 172 29"
