@@ -36,7 +36,6 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
             <img src="https://i.imgur.com/pFU9hYj.jpg" alt="" />
           </div>
