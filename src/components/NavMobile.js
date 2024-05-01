@@ -47,7 +47,6 @@ const NavMobile = () => {
         animate={isOpen ? "visible" : "hidden"}
         className="w-4 h-4 rounded-full bg-accent fixed top-0 right-0"
       ></motion.div>
-
       <motion.ul
         variants={ulVariants}
         initial="hidden"

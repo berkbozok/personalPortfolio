@@ -106,7 +106,6 @@ export const projectsData = [
     detail:
       "Personal Companion mobile application, using flutter and firebase as our datastore.",
   },
-
   {
     id: "3",
     image: "https://i.imgur.com/fsMaIrL.png",
