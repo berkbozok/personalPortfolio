@@ -21,6 +21,7 @@ const About = () => {
 
               <p className="mb-4 text-accent">Software Engineer</p>
               <hr className="mb-8 opacity-5" />
+
               <p className="mb-8">
                 I am a 25 years old Software Engineer from Concordia University
                 who is passionate about learning new skills and technologies. I
