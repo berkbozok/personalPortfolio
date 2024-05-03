@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 const About = () => {
   // testing
   // information
+  //
   return (
     <section className="section bg-secondary" id="about">
       <div className="container mx-auto">
