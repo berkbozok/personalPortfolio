@@ -3,7 +3,7 @@ import { navigation } from "../data";
 import { Link } from "react-scroll";
 
 const About = () => {
-  // testing
+  // testingg
 
   // informationnn
   return (
