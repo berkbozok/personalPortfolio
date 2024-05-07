@@ -4,8 +4,7 @@ import { Link } from "react-scroll";
 
 const About = () => {
   // testing
-  // information
-  //
+  // informationnn
   return (
     <section className="section bg-secondary" id="about">
       <div className="container mx-auto">
@@ -15,7 +14,7 @@ const About = () => {
             src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80"
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
-            <div className="flex flex-col">
+            <div className="flex flex-col ">
               <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
                 Berk Bozok
               </h2>
