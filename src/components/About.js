@@ -3,9 +3,6 @@ import { navigation } from "../data";
 import { Link } from "react-scroll";
 
 const About = () => {
-  // testingg
-
-  // informationnn
   return (
     <section className="section bg-secondary" id="about">
       <div className="container mx-auto">
@@ -19,11 +16,8 @@ const About = () => {
               <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
                 Berk Bozok
               </h2>
-
               <p className="mb-4 text-accent">Software Engineer</p>
-
               <hr className="mb-8 opacity-5" />
-
               <p className="mb-8">
                 I am a 25 years old Software Engineer from Concordia University
                 who is passionate about learning new skills and technologies. I
