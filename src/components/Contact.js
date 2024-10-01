@@ -1,3 +1,4 @@
+// Imports
 import React from "react";
 import { contact } from "../data";
 import { useRef } from "react";
