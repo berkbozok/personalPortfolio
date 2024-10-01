@@ -18,8 +18,6 @@ const BackTopBtn = () => {
   };
   {
     return (
-      // TEST
-      //
       // if needed set it to show
       //change false to show
       false && ( // To discuss
