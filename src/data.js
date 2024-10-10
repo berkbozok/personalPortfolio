@@ -11,13 +11,13 @@ import {
   FiFacebook,
 } from "react-icons/fi";
 
-// companies icons
+// Company Icons
 import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
 import UpworkBrandIcon from "./assets/img/brands/upwork.png";
 import FiverBrandIcon from "./assets/img/brands/fiverr.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
-// skills images
+// Skills
 import SkillImg1 from "./assets/img/skills/html5.png";
 import SkillImg2 from "./assets/img/skills/css3.png";
 import SkillImg3 from "./assets/img/skills/js.png";
@@ -27,7 +27,7 @@ import SkillImg6 from "./assets/img/skills/nodejs.png";
 import SkillImg7 from "./assets/img/skills/git.png";
 import SkillImg8 from "./assets/img/skills/figma.png";
 
-// navigation
+// Navigation
 export const navigation = [
   {
     name: "home",
