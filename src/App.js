@@ -1,3 +1,4 @@
+// Imports
 import React from "react";
 import About from "./components/About";
 import Brands from "./components/Brands";
